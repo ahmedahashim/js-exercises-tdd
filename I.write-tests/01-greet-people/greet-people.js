@@ -1,13 +1,19 @@
-function greetPeople(people) {
+  function greetPeople(people) {
     var greeting = 'Hello ';
 
-    people.forEach(function (person) {
-        greeting = greeting + person;
-    });
+    people.forEach(function (person, index) {
+    if(index!== people.length-1){
+        greeting =  greeting + person + ", ";
 
-    return greeting;
-}
-
+      }else{
+      greeting = greeting + person;
+      }
+      });
+        
+  
+return greeting;
+    
+    }
 module.exports = greetPeople;
 
 /*
@@ -16,3 +22,5 @@ module.exports = greetPeople;
   var mentors = ['Irina', 'Ashleigh', 'Etza'];
   var result = greetPeople(mentors)
 */
+// var greeting = "hello"
+// return greeting+ people.join(",")
