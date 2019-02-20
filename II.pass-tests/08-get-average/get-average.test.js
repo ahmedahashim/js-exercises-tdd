@@ -7,4 +7,5 @@ test('Average', function () {
     var output = average(numbers);
 
     expect(output).toEqual(expected);
+    //
 });
