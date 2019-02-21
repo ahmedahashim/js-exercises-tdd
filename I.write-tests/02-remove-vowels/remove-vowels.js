@@ -4,11 +4,11 @@ function removeVowels(word) {
     var result = [];
 
     characters.forEach(function (character) {
-        if (character === 'a' || character === 'o' || character === 'i' || character === 'e'
+        if (character=== 'a' || character === 'o' || character === 'i' || character === 'e'
             || character === 'u' || character === 'y') {
-            result.push(character)
+            return result.push("")
         } else {
-            result.push('_')
+            result.push(character)
         }
     })
 
@@ -22,5 +22,5 @@ module.exports = removeVowels;
 
   var result = removeVowels('samuel');
 
-  what is the value of result?
+  what is the value of result? string
 */

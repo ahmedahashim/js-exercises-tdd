@@ -10,4 +10,5 @@ test('Remove middle', function () {
 
     expect(output).toEqual(expectedOutput);
     expect(words).toEqual(expectedWords);
+    //
 });

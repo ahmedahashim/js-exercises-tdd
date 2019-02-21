@@ -13,11 +13,11 @@ Write a program that prints the numbers from 1 to n (where n is the number to st
 number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five
 print "FizzBuzz?".
 
-Sample output:
+Sampfizzbuzz
 ```
 1
 2
-Fizz
+Fizzfizzbuzz
 4
 Buzz
 Fizz

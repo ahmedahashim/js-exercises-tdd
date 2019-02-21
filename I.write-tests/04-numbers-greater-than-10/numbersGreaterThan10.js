@@ -1,8 +1,9 @@
-module.exports = function (array) {
+function largerThanTen(arr) {
+    
     var result = [];
 
-    for (var i = 0; i < array.length; i++) {
-        var value = array[i];
+    for (var i = 0; i < arr.length; i++) {
+        var value = arr[i];
         if (value > 10) {
             result.push(value)
         }
@@ -10,3 +11,4 @@ module.exports = function (array) {
 
     return result;
 }
+module.exports = largerThanTen

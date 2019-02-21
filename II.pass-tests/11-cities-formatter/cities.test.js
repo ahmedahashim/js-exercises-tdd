@@ -20,5 +20,6 @@ test('Cities', function () {
     var result = formatCities(capitals, transform);
 
     expect(result).toEqual(expected);
+    //
 });
 

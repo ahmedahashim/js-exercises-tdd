@@ -21,5 +21,6 @@ test('Car sales', function () {
     var output = sales(carsSold);
 
     expect(output).toEqual(totals);
+    //
 });
 
